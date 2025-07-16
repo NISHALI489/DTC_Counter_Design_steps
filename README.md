@@ -44,7 +44,7 @@ DTC Diagnostic Trouble Code
     However bit is confirmed state fault will be logged into NvM memory.
     And Warning Indicator will be activated.
 
-23. d. Healing counter:
+23. **d. Healing counter:**
 24. Once the Warning Indicator is turned ON the Healing counter will be comes into the picture.
 25. Healing Counter will check for the fault if it is not Available for same or single operation cycle then only Warning Indicator will be turned off.
 
