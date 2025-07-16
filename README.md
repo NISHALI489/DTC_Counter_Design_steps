@@ -51,8 +51,7 @@ DTC Diagnostic Trouble Code
 
 27. **e. Aging Counter:**
 28. It will check for the fault in same opration cycle as well as next opration cycle, if fault is not available then and then only it will remove fault from the NvM memory.
-29. 
-30. 
+    
 
     
 
