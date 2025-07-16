@@ -25,12 +25,12 @@ DTC Diagnostic Trouble Code
 3.RDMS: Rear Drive Module Shifter(Second varient of RDM)
 
 7. **Battery working voltage range**
-8. Requirements:
-9. Let's assume here as per client requirement our battery is working under voltage from 5v to 15 volt.
-10. If Battery voltage is go less than 5v it shall be considered as STG(Short to Ground) fault.
-11. If Battery voltage is go more than 15v it shall be considered as STB(Short to Battery) fault.
-12. If Battery voltage is less than 500mv it shall be considered as OPEN fault.
-13. Sensor erratic behaviour.
+   Requirements:
+   Let's assume here as per client requirement our battery is working under voltage from 5v to 15 volt.
+   If Battery voltage is go less than 5v it shall be considered as STG(Short to Ground) fault.
+   If Battery voltage is go more than 15v it shall be considered as STB(Short to Battery) fault.
+   If Battery voltage is less than 500mv it shall be considered as OPEN fault.
+   Sensor erratic behaviour.
 
 14. **Counters:**
 15. **a. Debounce counter:**
@@ -40,9 +40,9 @@ DTC Diagnostic Trouble Code
 18. It will check for the fault if it is available for same as well as next operation cycle, then status or fault bit set to test failed  to Pending bit.
 
 19. **c. Failure Counter:**
-20. It will check for the fault if it is available for same as well as next operation cycle, then status or fault bit set to pending to confirmed bit.
-21. However bit is confirmed state fault will be logged into NvM memory.
-22. And Warning Indicator will be activated.
+    It will check for the fault if it is available for same as well as next operation cycle, then status or fault bit set to pending to confirmed bit.
+    However bit is confirmed state fault will be logged into NvM memory.
+    And Warning Indicator will be activated.
 
 23. d. Healing counter:
 24. Once the Warning Indicator is turned ON the Healing counter will be comes into the picture.
