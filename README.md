@@ -6,7 +6,7 @@ DTC Diagnostic Trouble Code
 2. Power ON-OFF
 
 **3. Status Bits:**
-4. 1. Test Fail bit
+   1. Test Fail bit
    2. Pending bit
    3. Confirmed bit
 
