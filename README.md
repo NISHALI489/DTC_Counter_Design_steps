@@ -26,11 +26,11 @@ DTC Diagnostic Trouble Code
 
 7. **Battery working voltage range**
    Requirements:
-   Let's assume here as per client requirement our battery is working under voltage from 5v to 15 volt.
-   If Battery voltage is go less than 5v it shall be considered as STG(Short to Ground) fault.
-   If Battery voltage is go more than 15v it shall be considered as STB(Short to Battery) fault.
-   If Battery voltage is less than 500mv it shall be considered as OPEN fault.
-   Sensor erratic behaviour.
+   a. Let's assume here as per client requirement our battery is working under voltage from 5v to 15 volt.
+   b. If Battery voltage is go less than 5v it shall be considered as STG(Short to Ground) fault.
+   c. If Battery voltage is go more than 15v it shall be considered as STB(Short to Battery) fault.
+   d. If Battery voltage is less than 500mv it shall be considered as OPEN fault.
+   e. Sensor erratic behaviour.
 
 14. **Counters:**
 15. **a. Debounce counter:**
